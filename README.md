@@ -59,10 +59,39 @@ python your_project_script.py
 git add .
 git commit -m "GumusAI entegrasyonu tamamlandı"
 git push origin main
+### Model Yapısı
+```
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ embedding (Embedding)       (None, 199, 256)          77879296  
+                                                                 
+ lstm (LSTM)                 (None, 64)                82176     
+                                                                 
+ dropout (Dropout)           (None, 64)                0         
+                                                                 
+ dense (Dense)               (None, 304216)            19774040  
+                                                                 
+=================================================================
+Total params: 97735512 (372.83 MB)
+Trainable params: 97735512 (372.83 MB)
+Non-trainable params: 0 (0.00 Byte)
+_______________________________________
+```
+
+### Model Skorları
+```
+Test Sonuçları:
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1 Score: 1.0000
+```
+
+
 ###### Geliştirici
 
 - **Emin Gürses** - *Ana Geliştirici* - [Github Profil](https://github.com/orgs/GumusAI/people/bendexe)
-- **Emin Gürses** - *Katkıda bulunanlar* - [Github Profil](https://github.com/orgs/GumusAI/people/Hrytprk)
+- **Huriye TOPRAK** - *Katkıda bulunanlar* - [Github Profil](https://github.com/orgs/GumusAI/people/Hrytprk)
 Sorularıınızı buradan da iletebilirsiniz 
 
 
