@@ -81,6 +81,10 @@ _______________________________________
 ### Model Skorları
 ```
 Test Sonuçları:
+Train loss: 0.0482
+Train accuracy: 0.9976
+Validation loss: 0.0012
+Validation accuracy: 1.0000
 Accuracy: 1.0000
 Precision: 1.0000
 Recall: 1.0000
